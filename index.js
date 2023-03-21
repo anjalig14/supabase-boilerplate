@@ -11,7 +11,7 @@ async function getBooks() {
 
   for (let book of books) {
     let bookList = document.getElementById('books');
-    bookList.innerHTML += `<tr><td>${book.title} - ${book.author} - ${book.ISBN}</td></tr>`;
+    bookList.innerHTML += `<tr><td>${book.title} - ${book.author} - ${book.ISBN} - ${book.description}</td></tr>`;
   }
 }
 
